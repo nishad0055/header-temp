@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background:url(images/bg1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0, 0, 0.4);
+}
+.logo{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float:right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin: 0 8px;
+    display: inline;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    padding: 6px 13px;
+    transition: .4s;
+}
+.navbar ul li a.active, .navbar ul li a:hover{
+    background-color: red;
+    border-radius: 2px;
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 885px;
+    text-align: center;
+}
+.center .button{
+    margin: 35px 280px;
+}
+.button button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.button button:hover{
+    background: #0e0000;
+    outline: none;
+    
+    color:#fff;
+}
+.button .btn{
+    margin-left: 25px;
+}
